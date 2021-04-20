@@ -12,9 +12,9 @@ const TableHeader = () => {
 }
 
 const TableBody = (props) => {
-    const rows = props.valor.map((linha, i) => {
+    const rows = props.valor.map((linha, index) => {
         return (
-            <tr key={i}>
+            <tr key={index}>
                 <td>{linha.nome}</td>
                 <td>{linha.Profissao}</td>
             </tr>
